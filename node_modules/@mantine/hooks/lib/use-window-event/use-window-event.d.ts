@@ -1,2 +1,0 @@
-export declare function useWindowEvent<K extends keyof WindowEventMap>(type: K, listener: (this: Window, ev: WindowEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void;
-//# sourceMappingURL=use-window-event.d.ts.map
