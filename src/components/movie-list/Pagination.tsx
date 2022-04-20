@@ -16,7 +16,7 @@ function Pagination(props: Props) {
   };
 
   return (
-    <div>
+    <div className="grid justify-self-center">
       <Pag
         total={Math.round(parseInt(totalResults) / 10)}
         onChange={setPage}

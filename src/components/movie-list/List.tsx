@@ -19,7 +19,7 @@ function List(props: Props) {
         >
           <img
             className="h-content justify-self-center object-cover"
-            style={{ height: '80px' }}
+            style={{ height: '100px' }}
             src={movie.Poster}
             alt={movie.Title}
           />
