@@ -53,7 +53,7 @@ export interface ResponseBody {
 export const movieApiSlice = createApi({
   reducerPath: 'api',
   baseQuery: fetchBaseQuery({
-    baseUrl: `http://www.omdbapi.com/`,
+    baseUrl: `https://www.omdbapi.com/`,
   }),
   endpoints(builder) {
     return {
